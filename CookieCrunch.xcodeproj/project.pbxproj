@@ -13,7 +13,7 @@
 		2D3DC1E91D1A03410051AF78 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DC1E81D1A03410051AF78 /* GameViewController.swift */; };
 		2D3DC1EC1D1A03410051AF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC1EA1D1A03410051AF78 /* Main.storyboard */; };
 		2D3DC1F11D1A03410051AF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC1EF1D1A03410051AF78 /* LaunchScreen.storyboard */; };
-		2D3DC1F91D1AEB7F0051AF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC1F81D1AEB7F0051AF78 /* Assets.xcassets */; };
+		2D3DC1FB1D1AEC340051AF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC1FA1D1AEC340051AF78 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		2D3DC1EB1D1A03410051AF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D3DC1F01D1A03410051AF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D3DC1F21D1A03410051AF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D3DC1F81D1AEB7F0051AF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D3DC1FA1D1AEC340051AF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				2D3DC1E81D1A03410051AF78 /* GameViewController.swift */,
 				2D3DC1EA1D1A03410051AF78 /* Main.storyboard */,
 				2D3DC1EF1D1A03410051AF78 /* LaunchScreen.storyboard */,
-				2D3DC1F81D1AEB7F0051AF78 /* Assets.xcassets */,
+				2D3DC1FA1D1AEC340051AF78 /* Assets.xcassets */,
 				2D3DC1F21D1A03410051AF78 /* Info.plist */,
 			);
 			path = CookieCrunch;
@@ -130,7 +130,7 @@
 			files = (
 				2D3DC1E51D1A03410051AF78 /* GameScene.sks in Resources */,
 				2D3DC1F11D1A03410051AF78 /* LaunchScreen.storyboard in Resources */,
-				2D3DC1F91D1AEB7F0051AF78 /* Assets.xcassets in Resources */,
+				2D3DC1FB1D1AEC340051AF78 /* Assets.xcassets in Resources */,
 				2D3DC1EC1D1A03410051AF78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
