@@ -46,6 +46,8 @@ class GameViewController: UIViewController {
 
         beginGame()
         
+        scene.swipeHandler = handleSwipe
+        
     }
     
     func beginGame() {
@@ -55,6 +57,21 @@ class GameViewController: UIViewController {
     func shuffle() {
         let newCookies = level.shuffle()
         scene.addSpritesForCookies(newCookies)
+    }
+    
+    func handleSwipe(swap: Swap) {
+        view.userInteractionEnabled = false
+        
+        if level.isPossibleSwap(swap) {
+            level.performSwap(swap)
+            scene.animateSwap(swap) {
+                self.view.userInteractionEnabled = true
+            }
+        } else {
+            scene.animateInvalidSwap(swap) {
+                self.view.userInteractionEnabled = true
+            }
+        }
     }
 }
 
