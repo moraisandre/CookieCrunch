@@ -31,6 +31,7 @@
 		2D3DC22C1D1C17940051AF78 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2261D1C17940051AF78 /* Ka-Ching.wav */; };
 		2D3DC22D1D1C17940051AF78 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2271D1C17940051AF78 /* Mining by Moonlight.mp3 */; };
 		2D3DC22E1D1C17940051AF78 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2281D1C17940051AF78 /* Scrape.wav */; };
+		2D3DC2301D1CA30C0051AF78 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DC22F1D1CA30C0051AF78 /* Chain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		2D3DC2261D1C17940051AF78 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
 		2D3DC2271D1C17940051AF78 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		2D3DC2281D1C17940051AF78 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+		2D3DC22F1D1CA30C0051AF78 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2D3DC21C1D1B5D7F0051AF78 /* Tile.swift */,
 				2D3DC21E1D1B5E510051AF78 /* Extensions.swift */,
 				2D3DC2201D1B7C130051AF78 /* Swap.swift */,
+				2D3DC22F1D1CA30C0051AF78 /* Chain.swift */,
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				2D3DC2011D1AF2BD0051AF78 /* Cookie.swift in Sources */,
 				2D3DC21F1D1B5E510051AF78 /* Extensions.swift in Sources */,
 				2D3DC21D1D1B5D7F0051AF78 /* Tile.swift in Sources */,
+				2D3DC2301D1CA30C0051AF78 /* Chain.swift in Sources */,
 				2D3DC1E91D1A03410051AF78 /* GameViewController.swift in Sources */,
 				2D3DC1E31D1A03410051AF78 /* AppDelegate.swift in Sources */,
 				2D3DC2031D1B4A5E0051AF78 /* Array2D.swift in Sources */,
