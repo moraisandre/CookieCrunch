@@ -8,6 +8,7 @@
 
 class Chain: Hashable, CustomStringConvertible {
     var cookies = [Cookie]()
+    var score = 0
     
     enum ChainType: CustomStringConvertible {
         case Horizontal
@@ -50,6 +51,7 @@ class Chain: Hashable, CustomStringConvertible {
     var hashValue: Int {
         return cookies.reduce (0) { $0.hashValue ^ $1.hashValue }
     }
+    
 }
 
 func ==(lhs: Chain, rhs: Chain) -> Bool {

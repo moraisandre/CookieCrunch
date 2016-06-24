@@ -32,6 +32,7 @@
 		2D3DC22D1D1C17940051AF78 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2271D1C17940051AF78 /* Mining by Moonlight.mp3 */; };
 		2D3DC22E1D1C17940051AF78 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2281D1C17940051AF78 /* Scrape.wav */; };
 		2D3DC2301D1CA30C0051AF78 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DC22F1D1CA30C0051AF78 /* Chain.swift */; };
+		2D3DC2321D1CE3CA0051AF78 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2D3DC2311D1CE3CA0051AF78 /* Grid.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		2D3DC2271D1C17940051AF78 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		2D3DC2281D1C17940051AF78 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
 		2D3DC22F1D1CA30C0051AF78 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		2D3DC2311D1CE3CA0051AF78 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +100,13 @@
 				2D3DC1E61D1A03410051AF78 /* GameScene.swift */,
 				2D3DC1E81D1A03410051AF78 /* GameViewController.swift */,
 				2D3DC1EA1D1A03410051AF78 /* Main.storyboard */,
-				2D3DC1FC1D1AEDC90051AF78 /* Assets.xcassets */,
-				2D3DC1FE1D1AEDFF0051AF78 /* Sprites.atlas */,
 				2D3DC1EF1D1A03410051AF78 /* LaunchScreen.storyboard */,
+				2D3DC1FC1D1AEDC90051AF78 /* Assets.xcassets */,
+				2D3DC2311D1CE3CA0051AF78 /* Grid.atlas */,
+				2D3DC1FE1D1AEDFF0051AF78 /* Sprites.atlas */,
+				2D3DC2221D1C17940051AF78 /* Sounds */,
 				2D3DC2111D1B5C8B0051AF78 /* Levels */,
 				2D3DC1F21D1A03410051AF78 /* Info.plist */,
-				2D3DC2221D1C17940051AF78 /* Sounds */,
 				2D3DC2001D1AF2BD0051AF78 /* Cookie.swift */,
 				2D3DC2021D1B4A5E0051AF78 /* Array2D.swift */,
 				2D3DC2041D1B4CEE0051AF78 /* Level.swift */,
@@ -201,6 +204,7 @@
 				2D3DC1F11D1A03410051AF78 /* LaunchScreen.storyboard in Resources */,
 				2D3DC22A1D1C17940051AF78 /* Drip.wav in Resources */,
 				2D3DC21B1D1B5C8B0051AF78 /* Level_4.json in Resources */,
+				2D3DC2321D1CE3CA0051AF78 /* Grid.atlas in Resources */,
 				2D3DC22B1D1C17940051AF78 /* Error.wav in Resources */,
 				2D3DC2191D1B5C8B0051AF78 /* Level_2.json in Resources */,
 				2D3DC22E1D1C17940051AF78 /* Scrape.wav in Resources */,
